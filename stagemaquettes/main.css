@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600&display=swap');
+
+* {
+  box-sizing: border-box;
+}
+body {
+  font-size: 14px;
+  font-family: 'Montserrat', sans-serif; 
+  overflow-x: hidden;
+  width: 100vw;
+}
+.bg-black {
+  background-color: black;
+  color: white;
+  font-family: sans-serif;
+  font-weight: 100;
+}
+
+h2.Attention {
+  text-align: center;
+}
+
+h1 {
+  text-align: center;
+  font-weight: 800;
+}
+
+p {
+  text-align: center;
+}
+
+input.email {
+  width: 78%;
+  height: 65px;
+  border: 1px solid black;
+  border-radius: 1em;
+  padding: 15px;
+  margin-left: 64px;
+
+}
+
+button.btn {
+  height: 65px;
+  color: white;
+  background-color: #bd509d;
+  width: 78%;
+  margin-left: 67px;
+  margin-top: 10px;
+  font-weight: 600;
+  font-size: 25px;
+}
+button.btn:hover {
+  color: #bd509d;
+  background-color: white;
+  border-color: #bd509d;
+}
+.p{
+  font-size:23px;
+}
+.md7 {
+  margin: 148px;
+}
+.imgbook{
+  left: 55%;
+  position: relative;
+}
+
+.box_main_1 {
+  width: 100%;
+  float: left;
+  background-color: #bd509d;
+  height: auto;
+  border-radius: 5px;
+}
+
+
+.frame {
+    height: 150px;
+    width: 100%;
+    overflow: hidden;
+  }
+  .frame img {
+    margin-top: 26px;
+    margin-inline: 37%;
+   
+  }
+
+
+.padding_15 {
+  width: 100%;
+  float: left;
+  padding: 20px 15px 40px 15px;
+}
+.news_section {
+  background: linear-gradient(180deg, black 50%, white 50%);
+  color: white;
+
+}
+.h1{
+  padding: 50px;
+}
+.layout_padding{
+  margin-top:7%;
+}
+.zoomout
+{
+  position: relative;
+    top: -87px;
+}
+.zoomout img{
+  position: absolute;
+}
+.h2-1{
+  position: relative;
+  bottom: 54px !important;
+}
+.long_text{
+  font-size: 26px;
+}
